@@ -45,4 +45,4 @@ file.close()
 print("\nTotal Investment Value = $", total_amount)
 print("Portfolio saved successfully in portfolio.txt")
 
-Same code, Change from $ symbol to rupee symbol and change the stock names to india top companies
+
