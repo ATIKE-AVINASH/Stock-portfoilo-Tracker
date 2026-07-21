@@ -17,7 +17,7 @@ n = int(input("\nHow many different stocks do you want to enter? "))
 
 file = open("portfolio.txt", "w")
 file.write("Stock Portfolio\n")
-file.write("-------------------------\n")
+file.write("------\n")
 
 for i in range(n):
 stock_name = input("\nEnter Stock Name: ").upper()
@@ -37,7 +37,7 @@ if stock_name in stock_prices:
 else:  
     print("Stock not available.")
 
-file.write("-------------------------\n")
+file.write("------\n")
 file.write(f"Total Investment = ${total_amount}")
 
 file.close()
